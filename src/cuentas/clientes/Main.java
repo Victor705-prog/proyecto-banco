@@ -6,9 +6,9 @@ public class Main {
         Cuenta cuenta1;
         double saldoActual;
 
-        cuenta1 = new Cuenta("Roger Federer","1000-2365-85-1230456789",2500,0);
+        cuenta1 = new Cuenta("Roger Federer","1000-2365-85-1230456789",5000,0);
         
-        operativa_cuenta(cuenta1, 2300);
+        operativa_cuenta(cuenta1, 5000);
     }
 
     private static void operativa_cuenta(Cuenta cuenta1, float cantidad) {
