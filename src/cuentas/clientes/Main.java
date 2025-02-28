@@ -1,7 +1,19 @@
 package cuentas.clientes;
 
-public class Main {
+/**
+ * Clase principal que ejecuta el programa de gestión de cuentas bancarias.
+ * 
+ * @author Víctor Fernández Alcázar
+ * @version 1.0
+ * @since 2025-02-28
+ */
 
+public class Main {
+    
+    /**
+     * Método principal de ejecución del programa.
+     */
+    
     public static void main(String[] args) {
         Cuenta cuenta1;
         double saldoActual;
@@ -10,7 +22,14 @@ public class Main {
         
         operativa_cuenta(cuenta1, 5000);
     }
-
+    
+    /**
+     * Realiza operaciones de ingreso y retiro sobre una cuenta bancaria.
+     * 
+     * @param cuenta1  Objeto de la clase Cuenta sobre el que se operará.
+     * @param cantidad Cantidad inicial a retirar.
+     */
+    
     private static void operativa_cuenta(Cuenta cuenta1, float cantidad) {
         System.out.println("El saldo actual es:"+ cuenta1.estado() );
         
